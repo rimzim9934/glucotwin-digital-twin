@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-24",
+  "repository": "https://github.com/rimzim9934/glucotwin-digital-twin",
+  "private": false,
+  "branch": "main",
+  "commit": "f811b8244cca79d20254c73da2df58b60f704afb",
+  "anonymous_requests": true,
+  "files": [
+    {
+      "path": "LICENSE",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 1239
+    },
+    {
+      "path": "README.md",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 15969
+    },
+    {
+      "path": "START_HERE.md",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 2731
+    },
+    {
+      "path": "docs/RELIABILITY_LAB.md",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 3174
+    },
+    {
+      "path": "docs/SUBMISSION_CHECKLIST.md",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 3352
+    },
+    {
+      "path": "docs/VIDEO_HANDOFF.md",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 2507
+    },
+    {
+      "path": "output/evidence/example_forecast_receipt.json",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 7384
+    },
+    {
+      "path": "output/pdf/GlucoTwin_Project_Reliability_Edition.pdf",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 80437
+    },
+    {
+      "path": "output/pdf/GlucoTwin_Reliability_Architecture.pdf",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 64883
+    },
+    {
+      "path": "output/presentation/GlucoTwin_TwinPulse_Reliability_Edition.pptx",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 1029908
+    },
+    {
+      "path": "reports/reliability_benchmark.json",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 13909
+    },
+    {
+      "path": "reports/reliability_per_patient.csv",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 2749
+    },
+    {
+      "path": "reports/scoring_v2_audit.json",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 9380
+    },
+    {
+      "path": "requirements.txt",
+      "http_status": 200,
+      "matches_pushed_file": true,
+      "bytes": 128
+    }
+  ],
+  "all_public_links_pass": true,
+  "video_pending": true
+}

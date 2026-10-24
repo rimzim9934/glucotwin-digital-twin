@@ -58,13 +58,13 @@
     },
     {
       "path": "docs/STATUS.md",
-      "bytes": 1260,
-      "sha256": "1be50c2858e34550fc28380fc79976ea21580abaf469b9e3bcf9df6c9ce1b73b"
+      "bytes": 1328,
+      "sha256": "30044eae1de11372bba7393b0c3c008b69b5b68fb2ade2a17b9cb09674870adb"
     },
     {
       "path": "docs/SUBMISSION_CHECKLIST.md",
-      "bytes": 3352,
-      "sha256": "ab559d105015c23b5cf3039711ffff5ac1eb66d68a6614b8953badeb0409f378"
+      "bytes": 3813,
+      "sha256": "67dc58e4850e5e4974aa05038397ae3b0bfa864e13f5022d4947c4a8b0c7118d"
     },
     {
       "path": "docs/VIDEO_HANDOFF.md",
@@ -140,6 +140,11 @@
       "path": "reports/frozen_config.json",
       "bytes": 2814,
       "sha256": "ca2f6ff796e4d1ca580a6e80c71292747b0372e49eed1e56a698d24b2b11fa44"
+    },
+    {
+      "path": "reports/github_publication_verification.json",
+      "bytes": 2298,
+      "sha256": "b8f076a0c01185dea661bc93962b3cc29226d75430ef40b484c083abbbf7ce0c"
     },
     {
       "path": "reports/profiles.csv",

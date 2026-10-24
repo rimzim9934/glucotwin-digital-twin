@@ -15,7 +15,7 @@ Audit date: 24 October 2026. Source: the two submission-form screenshots supplie
 | Open-source license details | Ready | MIT code LICENSE; CGMacros CC BY-NC-SA 4.0 separately attributed |
 | Architecture diagram in PDF/PPT | Ready locally | ../output/pdf/GlucoTwin_Reliability_Architecture.pdf, linked in README |
 | Presentation with project details and outcomes in PDF/PPT | Ready locally | ../output/presentation/GlucoTwin_TwinPulse_Reliability_Edition.pptx, linked in README |
-| All files/links publicly accessible without extra permissions | Pending | Check the published README document links while signed out |
+| All files/links publicly accessible without extra permissions | Verified for current non-video files | Anonymous requests returned HTTP 200 for README, architecture, presentation and every README file link; the video remains pending |
 | Public GitHub repository URL entered in form | Pending | https://github.com/rimzim9934/glucotwin-digital-twin; enter this URL in the organizer form |
 
 ## Public-access check before submission
@@ -38,3 +38,7 @@ The original stated deadline has passed. The screenshot does not confirm an exte
 https://github.com/rimzim9934/glucotwin-digital-twin
 
 Anonymous GitHub API checks on 24 October 2026: repository HTTP 200, private=false, size=0. README endpoint HTTP 404. Root contents endpoint HTTP 404. Repository visibility passes, but required file accessibility does not pass because no files are present.
+
+## Publication verification
+
+The project was pushed to public main on 24 October 2026. Anonymous requests verified README, licenses, architecture PDF, project report, presentation PPTX and every README file link with matching SHA256 content. See reports/github_publication_verification.json. The unlisted video/link and final leader submission remain pending.
