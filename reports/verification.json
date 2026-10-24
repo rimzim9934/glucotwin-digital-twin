@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "python": "3.11.5",
+  "tests_passed": 8,
+  "test_command": "python3 scripts/check.py",
+  "reproduction_command": "python3 train.py final --verify",
+  "reproduction": "Matched recorded patient-mean MAE and event accounting for all seven reported variants. No model or threshold retuning.",
+  "browser_checks": [
+    "Forecast renders",
+    "30-minute stepping",
+    "Automatic replay advances",
+    "Readable dark-theme dashboard"
+  ],
+  "document_review": "All four PDF pages rendered and visually inspected",
+  "files": {
+    "reports/frozen_config.json": "ca2f6ff796e4d1ca580a6e80c71292747b0372e49eed1e56a698d24b2b11fa44",
+    "reports/splits.json": "f105f71bd4008dba3d102b1626631906301cbf317d2459da71c1beef30831bf4",
+    "artifacts/models.joblib": "afd46a59ce74af08074e18c3e34836d7b36807d6e76c936e7ff5e97728e15735",
+    "core.py": "844a677d4b614b602ef0798607e97646fa27fa21a25ebacbb8e2cc975f40050e",
+    "prepare.py": "b60a901bdf8e2255ffb0513a77df771a42c346a80e9957a5b8a69d23e8292f75",
+    "evaluation.py": "61c89e47f1d803e92101b20149052c070e3bee9bc41941c9c68c9f0fa7245e62"
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.0.3",
+    "scikit-learn": "1.3.0",
+    "streamlit": "1.52.2",
+    "plotly": "5.17.0"
+  }
+}

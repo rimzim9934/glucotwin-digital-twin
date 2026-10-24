@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-24",
+  "scoring_version": 2,
+  "changes": "Emit warnings and advance cooldown causally. Credit observed sustained positive onsets even when later follow-up is missing. Unmatched alerts without complete 45-minute follow-up are censored.",
+  "thresholds_unchanged": {
+    "persistence": 170,
+    "trend": 180,
+    "ridge_cgm": 170,
+    "boosted_cgm": 170,
+    "clinical_cgm": 170,
+    "clinical_activity": 170,
+    "adaptive_twin": 170
+  },
+  "models_retrained": false,
+  "forecast_predictions_unchanged": true,
+  "old_reports": "reports/scoring_v1/",
+  "comparisons": [
+    {
+      "model": "persistence",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 138,
+        "missed_events": 25,
+        "event_sensitivity": 0.8466257668711656,
+        "false_warnings": 246,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.21258821834941666,
+        "median_lead_minutes": 10.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 387,
+        "censored_warnings": 2,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 139,
+        "missed_events": 24,
+        "event_sensitivity": 0.852760736196319,
+        "false_warnings": 246,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.21258821834941666,
+        "median_lead_minutes": 10.0
+      },
+      "type2": {
+        "emitted_warnings": 250,
+        "censored_warnings": 1,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 94,
+        "missed_events": 12,
+        "event_sensitivity": 0.8867924528301887,
+        "false_warnings": 155,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.44905842588121686,
+        "median_lead_minutes": 10.0
+      }
+    },
+    {
+      "model": "trend",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 135,
+        "missed_events": 28,
+        "event_sensitivity": 0.8282208588957055,
+        "false_warnings": 258,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.22295837534207114,
+        "median_lead_minutes": 10.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 397,
+        "censored_warnings": 3,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 136,
+        "missed_events": 27,
+        "event_sensitivity": 0.8343558282208589,
+        "false_warnings": 258,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.22295837534207114,
+        "median_lead_minutes": 10.0
+      },
+      "type2": {
+        "emitted_warnings": 200,
+        "censored_warnings": 0,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 86,
+        "missed_events": 20,
+        "event_sensitivity": 0.8113207547169812,
+        "false_warnings": 114,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.3302752293577982,
+        "median_lead_minutes": 10.0
+      }
+    },
+    {
+      "model": "ridge_cgm",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 159,
+        "missed_events": 4,
+        "event_sensitivity": 0.9754601226993865,
+        "false_warnings": 259,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.223822555091459,
+        "median_lead_minutes": 10.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 422,
+        "censored_warnings": 2,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 161,
+        "missed_events": 2,
+        "event_sensitivity": 0.9877300613496932,
+        "false_warnings": 259,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.223822555091459,
+        "median_lead_minutes": 10.0
+      },
+      "type2": {
+        "emitted_warnings": 264,
+        "censored_warnings": 0,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 106,
+        "missed_events": 0,
+        "event_sensitivity": 1.0,
+        "false_warnings": 158,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.4577498792853694,
+        "median_lead_minutes": 10.0
+      }
+    },
+    {
+      "model": "boosted_cgm",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 161,
+        "missed_events": 2,
+        "event_sensitivity": 0.9877300613496932,
+        "false_warnings": 268,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.23160017283594986,
+        "median_lead_minutes": 10.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 433,
+        "censored_warnings": 3,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 162,
+        "missed_events": 1,
+        "event_sensitivity": 0.9938650306748467,
+        "false_warnings": 268,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.23160017283594986,
+        "median_lead_minutes": 10.0
+      },
+      "type2": {
+        "emitted_warnings": 268,
+        "censored_warnings": 1,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 106,
+        "missed_events": 0,
+        "event_sensitivity": 1.0,
+        "false_warnings": 161,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.46644133268952204,
+        "median_lead_minutes": 10.0
+      }
+    },
+    {
+      "model": "clinical_cgm",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 160,
+        "missed_events": 3,
+        "event_sensitivity": 0.9815950920245399,
+        "false_warnings": 270,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.2333285323347256,
+        "median_lead_minutes": 15.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 434,
+        "censored_warnings": 3,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 161,
+        "missed_events": 2,
+        "event_sensitivity": 0.9877300613496932,
+        "false_warnings": 270,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.2333285323347256,
+        "median_lead_minutes": 15.0
+      },
+      "type2": {
+        "emitted_warnings": 284,
+        "censored_warnings": 1,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 106,
+        "missed_events": 0,
+        "event_sensitivity": 1.0,
+        "false_warnings": 177,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.5127957508450025,
+        "median_lead_minutes": 15.0
+      }
+    },
+    {
+      "model": "clinical_activity",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 160,
+        "missed_events": 3,
+        "event_sensitivity": 0.9815950920245399,
+        "false_warnings": 270,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.2333285323347256,
+        "median_lead_minutes": 15.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 434,
+        "censored_warnings": 3,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 161,
+        "missed_events": 2,
+        "event_sensitivity": 0.9877300613496932,
+        "false_warnings": 270,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.2333285323347256,
+        "median_lead_minutes": 15.0
+      },
+      "type2": {
+        "emitted_warnings": 286,
+        "censored_warnings": 1,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 106,
+        "missed_events": 0,
+        "event_sensitivity": 1.0,
+        "false_warnings": 179,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.5185900531144375,
+        "median_lead_minutes": 15.0
+      }
+    },
+    {
+      "model": "adaptive_twin",
+      "old_scoring_v1": {
+        "eligible_events": 163,
+        "detected_events": 161,
+        "missed_events": 2,
+        "event_sensitivity": 0.9877300613496932,
+        "false_warnings": 268,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.23160017283594986,
+        "median_lead_minutes": 10.0
+      },
+      "new_scoring_v2": {
+        "emitted_warnings": 433,
+        "censored_warnings": 3,
+        "duplicate_warnings": 0,
+        "eligible_events": 163,
+        "detected_events": 162,
+        "missed_events": 1,
+        "event_sensitivity": 0.9938650306748467,
+        "false_warnings": 268,
+        "non_event_hours": 1157.1666666666667,
+        "false_warnings_per_hour": 0.23160017283594986,
+        "median_lead_minutes": 10.0
+      },
+      "type2": {
+        "emitted_warnings": 268,
+        "censored_warnings": 1,
+        "duplicate_warnings": 0,
+        "eligible_events": 106,
+        "detected_events": 106,
+        "missed_events": 0,
+        "event_sensitivity": 1.0,
+        "false_warnings": 161,
+        "non_event_hours": 345.16666666666663,
+        "false_warnings_per_hour": 0.46644133268952204,
+        "median_lead_minutes": 10.0
+      }
+    }
+  ]
+}

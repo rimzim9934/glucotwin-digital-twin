@@ -1,0 +1,24 @@
+{
+  "participants": 45,
+  "cohorts": {
+    "Prediabetes": 16,
+    "Without diabetes": 15,
+    "Type 2": 14
+  },
+  "raw_rows": 687580,
+  "grid_rows": 141262,
+  "supported_windows": 108418,
+  "observed_onsets": 672,
+  "clinical_missingness": {
+    "age": 0,
+    "bmi": 0,
+    "hba1c": 0,
+    "fasting_glucose": 0
+  },
+  "preprocessing": "First 24 hours establish dominant five-minute phase from integer-valued CGM endpoints. Only that phase retained thereafter; fractional or out-of-range endpoints rejected; no gap filling. Published minute stream is interpolated, so native-observation provenance cannot be fully recovered. This is reconstructed-cadence research evaluation, not raw-device validation.",
+  "hba1c_unit": "Percent, consistent with source cohort definitions and 4.6\u20138.5 values. Dictionary mmol/mol label is inconsistent.",
+  "source_dictionary_checksums": {
+    "DataDictionary_Bio.csv": "2d5b4c27873284ddbf218df51172b69ffa9caf6e97a3a122977b7a2761da4c61",
+    "DataDictionary_CGMacros-00X.csv": "db7bf114d61b90fc5de43fed5e5cd6ba33af37e900a706e1b5747d7b0ffac3f8"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "receipt_id": "1976c807ae6cf802",
+  "issued_payload_sha256": "1976c807ae6cf802649c02136a7600d0da3d4f855aa99068946f064697f73bd7",
+  "schema_version": 1,
+  "issued_at": "2025-07-26 11:25:00",
+  "model_name": "boosted_cgm",
+  "model_artifact_sha256": "afd46a59ce74af08074e18c3e34836d7b36807d6e76c936e7ff5e97728e15735",
+  "clinical_profile": {
+    "age": 51,
+    "bmi": 43.26869186,
+    "hba1c": 7.1,
+    "fasting_glucose": 142
+  },
+  "clinical_profile_used": false,
+  "received_input_window": [
+    {
+      "time": "2025-07-26 10:25:00",
+      "glucose": 226.0,
+      "hr": 111.6,
+      "met": null,
+      "activity_calories": 7.485347938537599,
+      "delivery": {
+        "clock_time": "2025-07-26 10:25:00",
+        "source_time": "2025-07-26 10:25:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 10:30:00",
+      "glucose": 220.0,
+      "hr": 113.6,
+      "met": null,
+      "activity_calories": 6.533069992065431,
+      "delivery": {
+        "clock_time": "2025-07-26 10:30:00",
+        "source_time": "2025-07-26 10:30:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 10:35:00",
+      "glucose": 208.0,
+      "hr": 114.4,
+      "met": null,
+      "activity_calories": 7.751099967956543,
+      "delivery": {
+        "clock_time": "2025-07-26 10:35:00",
+        "source_time": "2025-07-26 10:35:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 10:40:00",
+      "glucose": 193.0,
+      "hr": 109.8,
+      "met": null,
+      "activity_calories": 5.270747876167299,
+      "delivery": {
+        "clock_time": "2025-07-26 10:40:00",
+        "source_time": "2025-07-26 10:40:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 10:45:00",
+      "glucose": 179.0,
+      "hr": 108.0,
+      "met": null,
+      "activity_calories": 5.049287891387941,
+      "delivery": {
+        "clock_time": "2025-07-26 10:45:00",
+        "source_time": "2025-07-26 10:45:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 10:50:00",
+      "glucose": 167.0,
+      "hr": 113.0,
+      "met": null,
+      "activity_calories": 6.732383823394779,
+      "delivery": {
+        "clock_time": "2025-07-26 10:50:00",
+        "source_time": "2025-07-26 10:50:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 10:55:00",
+      "glucose": 151.0,
+      "hr": 113.4,
+      "met": null,
+      "activity_calories": 6.3337559700012225,
+      "delivery": {
+        "clock_time": "2025-07-26 10:55:00",
+        "source_time": "2025-07-26 10:55:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 11:00:00",
+      "glucose": 137.0,
+      "hr": 113.4,
+      "met": null,
+      "activity_calories": 6.311609935760499,
+      "delivery": {
+        "clock_time": "2025-07-26 11:00:00",
+        "source_time": "2025-07-26 11:00:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 11:05:00",
+      "glucose": 121.0,
+      "hr": 114.4,
+      "met": null,
+      "activity_calories": 6.643799877166751,
+      "delivery": {
+        "clock_time": "2025-07-26 11:05:00",
+        "source_time": "2025-07-26 11:05:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 11:10:00",
+      "glucose": 109.0,
+      "hr": 111.4,
+      "met": null,
+      "activity_calories": 5.536499905586244,
+      "delivery": {
+        "clock_time": "2025-07-26 11:10:00",
+        "source_time": "2025-07-26 11:10:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 11:15:00",
+      "glucose": 97.0,
+      "hr": 110.6,
+      "met": null,
+      "activity_calories": 5.5807920455932605,
+      "delivery": {
+        "clock_time": "2025-07-26 11:15:00",
+        "source_time": "2025-07-26 11:15:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 11:20:00",
+      "glucose": 91.0,
+      "hr": 113.8,
+      "met": null,
+      "activity_calories": 6.355901908874515,
+      "delivery": {
+        "clock_time": "2025-07-26 11:20:00",
+        "source_time": "2025-07-26 11:20:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    },
+    {
+      "time": "2025-07-26 11:25:00",
+      "glucose": 88.0,
+      "hr": 115.2,
+      "met": null,
+      "activity_calories": 7.131011962890628,
+      "delivery": {
+        "clock_time": "2025-07-26 11:25:00",
+        "source_time": "2025-07-26 11:25:00",
+        "age_minutes": 0.0,
+        "delivery_status": "current"
+      }
+    }
+  ],
+  "delivery_at_issue": {
+    "clock_time": "2025-07-26 11:25:00",
+    "source_time": "2025-07-26 11:25:00",
+    "age_minutes": 0.0,
+    "delivery_status": "current"
+  },
+  "issued_forecast": [
+    {
+      "target_time": "2025-07-26 11:30:00",
+      "glucose_mg_dl": 87.09986881057655
+    },
+    {
+      "target_time": "2025-07-26 11:35:00",
+      "glucose_mg_dl": 87.24067386893401
+    },
+    {
+      "target_time": "2025-07-26 11:40:00",
+      "glucose_mg_dl": 88.6588292885761
+    },
+    {
+      "target_time": "2025-07-26 11:45:00",
+      "glucose_mg_dl": 89.91929175668194
+    },
+    {
+      "target_time": "2025-07-26 11:50:00",
+      "glucose_mg_dl": 89.66677437242701
+    },
+    {
+      "target_time": "2025-07-26 11:55:00",
+      "glucose_mg_dl": 90.74533951773437
+    }
+  ],
+  "recent_performance_at_issue": {
+    "observed_matured_30min_forecasts": 0,
+    "recent_30min_mae_mg_dl": null,
+    "window": "Most recent 20 observed matured 30-minute forecasts. Overlapping and descriptive, not calibration or a safety score."
+  },
+  "scope": "Recorded research observations. Forecast and input snapshot fixed at issuance. Outcomes append only after target readings arrive. No treatment advice.",
+  "outcomes": [
+    {
+      "target_time": "2025-07-26 11:30:00",
+      "received_at": "2025-07-26 11:30:00",
+      "observed_glucose": 85.0,
+      "status": "observed",
+      "absolute_error": 2.0998688105765524
+    },
+    {
+      "target_time": "2025-07-26 11:35:00",
+      "received_at": "2025-07-26 11:35:00",
+      "observed_glucose": 81.0,
+      "status": "observed",
+      "absolute_error": 6.24067386893401
+    },
+    {
+      "target_time": "2025-07-26 11:40:00",
+      "received_at": "2025-07-26 11:40:00",
+      "observed_glucose": 80.0,
+      "status": "observed",
+      "absolute_error": 8.6588292885761
+    },
+    {
+      "target_time": "2025-07-26 11:45:00",
+      "received_at": "2025-07-26 11:45:00",
+      "observed_glucose": 81.0,
+      "status": "observed",
+      "absolute_error": 8.919291756681943
+    },
+    {
+      "target_time": "2025-07-26 11:50:00",
+      "received_at": "2025-07-26 11:50:00",
+      "observed_glucose": 85.0,
+      "status": "observed",
+      "absolute_error": 4.666774372427014
+    },
+    {
+      "target_time": "2025-07-26 11:55:00",
+      "received_at": "2025-07-26 11:55:00",
+      "observed_glucose": 91.0,
+      "status": "observed",
+      "absolute_error": 0.25466048226563487
+    }
+  ]
+}

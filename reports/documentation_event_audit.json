@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "scope": "Documentation audit of the two uncredited boosted_cgm onsets; no retraining, threshold changes or performance recomputation.",
+  "original_report": "test_results.json",
+  "findings": [
+    {
+      "participant": 41,
+      "onset": "2022-04-29 17:43:00",
+      "classification": "Genuine missed recrossing under the declared threshold rule",
+      "last_eligible_time": "2022-04-29 17:38:00",
+      "current_glucose": 178,
+      "forecast_peak": 166.959312,
+      "note": "Prior readings above 180 suppress onset warnings. A brief dip creates a new labeled onset."
+    },
+    {
+      "participant": 49,
+      "onset": "2025-05-21 07:33:00",
+      "classification": "Scoring artifact caused by future-coverage filter",
+      "first_qualifying_time": "2025-05-21 07:23:00",
+      "forecast_peak": 172.908285,
+      "gap_starts": "2025-05-21 07:58:00",
+      "note": "Future 45-minute completeness is used to gate all scored alerts, including positive matches. Live causal replay can warn. Do not call this a model miss."
+    }
+  ],
+  "consequence": "Original event counts are diagnostic outputs of scoring v1, not validated live warning performance. Repair censoring and cooldown accounting, then recompute all models with frozen thresholds. Forecast MAE and RMSE are unaffected."
+}

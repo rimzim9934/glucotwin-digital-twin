@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24",
+  "checks_passed": 16,
+  "test_command": "python3 scripts/check.py",
+  "frozen_reproduction_command": "python3 train.py final --verify",
+  "frozen_reproduction_matches": true,
+  "scoring_version": 2,
+  "models_retrained": false,
+  "thresholds_retuned": false,
+  "browser_visual_check": "Unavailable: local browser use is disabled in Work settings. Dashboard interaction checks passed via Streamlit AppTest.",
+  "files": {
+    "core.py": "844a677d4b614b602ef0798607e97646fa27fa21a25ebacbb8e2cc975f40050e",
+    "reliability.py": "81c24a77e463cc5aec9a456abcb6ad0a20bff999a99db3b4c6a987f2bce375f8",
+    "evaluation.py": "9df5c0033e1a5b36f3c9b9e9c624d281a54c123a5d0608e5083097b85f719352",
+    "app.py": "7c94eb81005a4fd87842be20cc83af825e58678f6366efc39a05cc4cb66b4945",
+    "reports/frozen_config.json": "ca2f6ff796e4d1ca580a6e80c71292747b0372e49eed1e56a698d24b2b11fa44",
+    "reports/reliability_benchmark.json": "c2b1b4ef197d477f832c74b968f16aa559637a713923daeb2ae7fab54e2b8977",
+    "artifacts/models.joblib": "afd46a59ce74af08074e18c3e34836d7b36807d6e76c936e7ff5e97728e15735"
+  }
+}

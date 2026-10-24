@@ -1,0 +1,100 @@
+{
+  "selected_population": "boosted_cgm",
+  "adaptation_alpha": 0.0,
+  "interval_half_widths": [
+    5.339760063988621,
+    10.416308500756955,
+    14.963209016651433,
+    18.96256494517695,
+    22.259032438820057,
+    25.394343795010144
+  ],
+  "warning_thresholds": {
+    "persistence": 170,
+    "trend": 180,
+    "ridge_cgm": 170,
+    "boosted_cgm": 170,
+    "clinical_cgm": 170,
+    "clinical_activity": 170,
+    "adaptive_twin": 170
+  },
+  "selection": "Equal-patient validation MAE at 30 minutes; no test model selection",
+  "validation_baselines": [
+    {
+      "model": "persistence",
+      "patients": 9,
+      "windows": 22896,
+      "patient_mean_mae": 11.372813546384302,
+      "patient_mean_rmse": 17.647755647475982,
+      "pooled_mae": 11.37141858839972,
+      "patient_mean_coverage": 0.8734766152328789,
+      "type2_mae": 12.587751522673138
+    },
+    {
+      "model": "trend",
+      "patients": 9,
+      "windows": 22896,
+      "patient_mean_mae": 16.715221878770276,
+      "patient_mean_rmse": 24.276220986235536,
+      "pooled_mae": 16.71680642907058,
+      "patient_mean_coverage": 0.8734766152328789,
+      "type2_mae": 18.09135509767924
+    },
+    {
+      "model": "ridge_cgm",
+      "patients": 9,
+      "windows": 22896,
+      "patient_mean_mae": 10.792489807058423,
+      "patient_mean_rmse": 16.09673558038769,
+      "pooled_mae": 10.792045193983101,
+      "patient_mean_coverage": 0.8734766152328789,
+      "type2_mae": 11.673190522229982
+    },
+    {
+      "model": "boosted_cgm",
+      "patients": 9,
+      "windows": 22896,
+      "patient_mean_mae": 10.548721157026167,
+      "patient_mean_rmse": 15.898458083906437,
+      "pooled_mae": 10.549064004266256,
+      "patient_mean_coverage": 0.8734766152328789,
+      "type2_mae": 11.7155577259096
+    },
+    {
+      "model": "clinical_cgm",
+      "patients": 9,
+      "windows": 22896,
+      "patient_mean_mae": 10.65004300854612,
+      "patient_mean_rmse": 15.876834521666057,
+      "pooled_mae": 10.648809252789746,
+      "patient_mean_coverage": 0.8734766152328789,
+      "type2_mae": 11.73930477487972
+    },
+    {
+      "model": "clinical_activity",
+      "patients": 9,
+      "windows": 22896,
+      "patient_mean_mae": 10.623286788687727,
+      "patient_mean_rmse": 15.779325029636238,
+      "pooled_mae": 10.622498649203989,
+      "patient_mean_coverage": 0.8734766152328789,
+      "type2_mae": 11.781233969438247
+    }
+  ],
+  "adaptation_candidates": [
+    {
+      "alpha": 0.0,
+      "mae": 10.548721157026167
+    },
+    {
+      "alpha": 0.03,
+      "mae": 10.9028067853157
+    },
+    {
+      "alpha": 0.1,
+      "mae": 11.619622195620593
+    }
+  ],
+  "protocol_sha256": "3e691f4f7f13d406ca182302deeda5ee20bb2b262e9163021bbde497382936e8",
+  "splits_sha256": "f105f71bd4008dba3d102b1626631906301cbf317d2459da71c1beef30831bf4"
+}

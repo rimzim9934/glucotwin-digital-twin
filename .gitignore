@@ -1,0 +1,9 @@
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+artifacts/
+__pycache__/
+.pytest_cache/
+
+tmp/
+output/submission/

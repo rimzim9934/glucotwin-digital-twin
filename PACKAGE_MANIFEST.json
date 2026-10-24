@@ -1,0 +1,285 @@
+{
+  "edition": "Reliability Lab / scoring v2",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 110,
+      "sha256": "9bcdb10151a3fb53716292b9d8676feb7fb4dafe5cd312776c168fe42367238c"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 248,
+      "sha256": "49e06c30bf7efa754aa1b2b2eeac38283a2218dc57fd6eaae9536001b640b6f5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1239,
+      "sha256": "878f089050a6e9bcafa7220d5360a235a1ea3e7203f06705bc494fdcd38d122c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15969,
+      "sha256": "3b5ff3a907cca8b074bd4851a92ee3bc36800fd05fc31c02f0fa24a75744bdf0"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2731,
+      "sha256": "d87c0ae15b20d3452f5baabee4571db5e1274b2491ca3bc28caf073cfb60e5de"
+    },
+    {
+      "path": "app.py",
+      "bytes": 26402,
+      "sha256": "7c94eb81005a4fd87842be20cc83af825e58678f6366efc39a05cc4cb66b4945"
+    },
+    {
+      "path": "core.py",
+      "bytes": 4732,
+      "sha256": "844a677d4b614b602ef0798607e97646fa27fa21a25ebacbb8e2cc975f40050e"
+    },
+    {
+      "path": "docs/DEMO_SCRIPT.md",
+      "bytes": 368,
+      "sha256": "1d5556013fc172a7d9479e5eaef100882d9184c4cdc23c260f41efb23028de4b"
+    },
+    {
+      "path": "docs/EVALUATION_V2.md",
+      "bytes": 1875,
+      "sha256": "e06fc348d770d1e0409c8591fc732ffdc8a35787987548c06200751298a8535c"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "bytes": 3807,
+      "sha256": "3e691f4f7f13d406ca182302deeda5ee20bb2b262e9163021bbde497382936e8"
+    },
+    {
+      "path": "docs/RELIABILITY_LAB.md",
+      "bytes": 3174,
+      "sha256": "22bf381ec5e76f752ca67e41cf6df482688fb47c1a2578825507795a631800c8"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 1260,
+      "sha256": "1be50c2858e34550fc28380fc79976ea21580abaf469b9e3bcf9df6c9ce1b73b"
+    },
+    {
+      "path": "docs/SUBMISSION_CHECKLIST.md",
+      "bytes": 3352,
+      "sha256": "ab559d105015c23b5cf3039711ffff5ac1eb66d68a6614b8953badeb0409f378"
+    },
+    {
+      "path": "docs/VIDEO_HANDOFF.md",
+      "bytes": 2507,
+      "sha256": "593bc3d668b48cf08d233df4755b1f914381993fb22f55e88694441b959b8680"
+    },
+    {
+      "path": "evaluation.py",
+      "bytes": 5854,
+      "sha256": "9df5c0033e1a5b36f3c9b9e9c624d281a54c123a5d0608e5083097b85f719352"
+    },
+    {
+      "path": "output/dashboard.png",
+      "bytes": 166708,
+      "sha256": "d6be39da03bdffbad66393e61289915a5e278c92cfabc5fabf54c0dbc477918d"
+    },
+    {
+      "path": "output/evidence/example_forecast_receipt.json",
+      "bytes": 7384,
+      "sha256": "df9b4337f23bba78f9851e200a8b3446119fbfe96923ece61a02b67513159711"
+    },
+    {
+      "path": "output/pdf/GlucoTwin_Project_Reliability_Edition.pdf",
+      "bytes": 80437,
+      "sha256": "2f475c764f88ba431b610aeecc6e148cc31ba00b20cc4e65990fd450ba400f83"
+    },
+    {
+      "path": "output/pdf/GlucoTwin_Reliability_Architecture.pdf",
+      "bytes": 64883,
+      "sha256": "9f319c777e7c4a44e0bfeaa016a23e36d170b94c59d2572d3ba03412ca0e32af"
+    },
+    {
+      "path": "output/presentation/GlucoTwin_TwinPulse_Reliability_Edition.pptx",
+      "bytes": 1029908,
+      "sha256": "f9e6c36d2476cd9c0448391913c4e091c1895e1bb3b677de15de3ccd9adc136a"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 5897,
+      "sha256": "b60a901bdf8e2255ffb0513a77df771a42c346a80e9957a5b8a69d23e8292f75"
+    },
+    {
+      "path": "reliability.py",
+      "bytes": 6666,
+      "sha256": "81c24a77e463cc5aec9a456abcb6ad0a20bff999a99db3b4c6a987f2bce375f8"
+    },
+    {
+      "path": "reports/audit_summary.json",
+      "bytes": 1086,
+      "sha256": "8fcf16bd8107a17d80f21638cf180a6ce0a85ee7a5dc2bd91a750e31bcb17651"
+    },
+    {
+      "path": "reports/data_audit.csv",
+      "bytes": 4067,
+      "sha256": "64b38afc06eb13d618306b674696ee12d2ca79d71281abdacf4d594b007b2c5e"
+    },
+    {
+      "path": "reports/data_manifest.json",
+      "bytes": 15900,
+      "sha256": "675bd7e28c9afc6a5eae62988b00f650cacce4b7d5b4128d600385146e40c154"
+    },
+    {
+      "path": "reports/document_pdf_checks.json",
+      "bytes": 272,
+      "sha256": "a61eb3c138af96f4f3e2ce645adc57f3c1feca04fba1b8f37cf6ce57c16415ac"
+    },
+    {
+      "path": "reports/documentation_event_audit.json",
+      "bytes": 1317,
+      "sha256": "65c3f1a9efe23747137c6d5729b48ccba585ff75218dcb2699a5a56578453951"
+    },
+    {
+      "path": "reports/frozen_config.json",
+      "bytes": 2814,
+      "sha256": "ca2f6ff796e4d1ca580a6e80c71292747b0372e49eed1e56a698d24b2b11fa44"
+    },
+    {
+      "path": "reports/profiles.csv",
+      "bytes": 1741,
+      "sha256": "93dc50db546a752a29ec7a3fa810a574ea16474d5cfc1d34abc7a67b08009bc2"
+    },
+    {
+      "path": "reports/public_repository_check.json",
+      "bytes": 356,
+      "sha256": "e3377c95c69a0b260ab28fbe80cf9a76d1a8392f3b3e904cd988183924ffcb06"
+    },
+    {
+      "path": "reports/reliability_benchmark.json",
+      "bytes": 13909,
+      "sha256": "c2b1b4ef197d477f832c74b968f16aa559637a713923daeb2ae7fab54e2b8977"
+    },
+    {
+      "path": "reports/reliability_per_patient.csv",
+      "bytes": 2749,
+      "sha256": "915071c2463362bc18a943df228cc5767093265ae80811ea0492c8763600d014"
+    },
+    {
+      "path": "reports/reliability_verification.json",
+      "bytes": 1107,
+      "sha256": "62c97f4eb224a52c73e0645e62c43f0eeeed16cdd9cccf8535c2ed5d69565691"
+    },
+    {
+      "path": "reports/scoring_v1/documentation_event_audit.json",
+      "bytes": 1317,
+      "sha256": "65c3f1a9efe23747137c6d5729b48ccba585ff75218dcb2699a5a56578453951"
+    },
+    {
+      "path": "reports/scoring_v1/test_comparison.csv",
+      "bytes": 1642,
+      "sha256": "14b3b5af717d93284c7acff48bbe3ad797563e770178efaecc83977fa50af9ca"
+    },
+    {
+      "path": "reports/scoring_v1/test_results.json",
+      "bytes": 842482,
+      "sha256": "0310fa2dcc7c5015d55292a4bc9e681ae7a613bf1889cfe3c8b1d884e23acc8a"
+    },
+    {
+      "path": "reports/scoring_v2_audit.json",
+      "bytes": 9380,
+      "sha256": "79e0a316853abbfc0c247b2849405a2385016f5cf85c0167a9280d57e52bd62e"
+    },
+    {
+      "path": "reports/splits.json",
+      "bytes": 408,
+      "sha256": "f105f71bd4008dba3d102b1626631906301cbf317d2459da71c1beef30831bf4"
+    },
+    {
+      "path": "reports/test_comparison.csv",
+      "bytes": 1751,
+      "sha256": "457f54ec773bd6a08470e06650de7a0ce591815306f40cb4560d273be91ffef8"
+    },
+    {
+      "path": "reports/test_per_patient.csv",
+      "bytes": 5570,
+      "sha256": "348d43cb3b9c89532bc200a82060c0942186355602999332c30e79ef435e7a02"
+    },
+    {
+      "path": "reports/test_results.json",
+      "bytes": 855439,
+      "sha256": "22e23cd5d0883fa37d191bf66cbdb2c1c40b768efe3c5d52e3c8c4454bb47e43"
+    },
+    {
+      "path": "reports/validation_forecasts.csv",
+      "bytes": 782,
+      "sha256": "81bd626adc453d8a0705d50c7e2c4323bd5f0bdd1589110033430a38ee569091"
+    },
+    {
+      "path": "reports/validation_warning_policies.csv",
+      "bytes": 2522,
+      "sha256": "467caf3a50ff2aad5d8a57a81321a144f64196d066a7454f5c5949af717f1a3c"
+    },
+    {
+      "path": "reports/verification.json",
+      "bytes": 1255,
+      "sha256": "b8f543cd32eaf7bd01bc0fc43ecc8df8447d1c8b564d3b63851652d8c7e556ed"
+    },
+    {
+      "path": "reports/video_script_timing.json",
+      "bytes": 394,
+      "sha256": "f6f726bc44b3423be910cd2d3a168c20c0f9daeb4f0ca8da75feb2b6809f1450"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 128,
+      "sha256": "db748263a17e7e8403a085fce30251441d74d5058cf1ecda47efc5dd2ede4fdb"
+    },
+    {
+      "path": "run.py",
+      "bytes": 249,
+      "sha256": "e3575996d49c9e6670a907b447acfa2efbe6baf6d3d25fbdea50a68690f8872f"
+    },
+    {
+      "path": "scripts/benchmark_reliability.py",
+      "bytes": 4326,
+      "sha256": "22801febfe89840abe1ab7ffe71d8fa63bd3d7c55e4703b44860375bbb2ec5f1"
+    },
+    {
+      "path": "scripts/check.py",
+      "bytes": 421,
+      "sha256": "adf7dcd0d24ed05d4506b20bf5f409648d11a1d0540e20e67226babac1aabd09"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "bytes": 3275,
+      "sha256": "7591ba8d124f2b338d279f781a972333fc38fda764b50d3b1537e2c289319635"
+    },
+    {
+      "path": "scripts/package_submission.py",
+      "bytes": 2704,
+      "sha256": "761f362845e08010243027896d078c14bac220fae683488a2b860371886d07dc"
+    },
+    {
+      "path": "scripts/rescore_events.py",
+      "bytes": 1858,
+      "sha256": "2fc185173e924af8b7f6b9d74cdd9393ec9c1ef9c8bc181bb0bc0b35d1d22285"
+    },
+    {
+      "path": "tests/test_dashboard.py",
+      "bytes": 1824,
+      "sha256": "5bda1ec958df8ade62d4290a7496312ef06af7009ad03f5d757d567bbc98a63a"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 5374,
+      "sha256": "bcdbf06e904b96a7e38ce774c651e09a922e4b6ae941bb659b10faedb98ded08"
+    },
+    {
+      "path": "tests/test_reliability.py",
+      "bytes": 4679,
+      "sha256": "9ccb5abb2f4bbd74ba4c2d138c355ad5020176ff73cd70bce44b7eec9b77e30b"
+    },
+    {
+      "path": "train.py",
+      "bytes": 7017,
+      "sha256": "3a3bac1c284499e073d22a8741e7226f290bc3f7d9c815bc867e45056ed64413"
+    }
+  ]
+}

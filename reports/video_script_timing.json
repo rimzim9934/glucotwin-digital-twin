@@ -1,0 +1,22 @@
+{
+  "spoken_words": 2545,
+  "assumed_words_per_minute": 120,
+  "estimated_narration_minutes": 21.208333333333332,
+  "target_final_minutes": 24,
+  "additional_demo_minutes": 2.791666666666668,
+  "scene_words": [
+    201,
+    212,
+    214,
+    214,
+    212,
+    215,
+    205,
+    213,
+    217,
+    208,
+    212,
+    222
+  ],
+  "note": "Planning estimates; verify exported runtime >=20 minutes."
+}
